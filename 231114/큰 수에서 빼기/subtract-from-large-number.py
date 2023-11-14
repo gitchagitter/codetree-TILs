@@ -2,10 +2,10 @@ a=input().split()
 q=int(a[0])
 w=int(a[1])
 if q>w:
-    q=(q-w)
-    print(q)
+    qq=(q-w)
+    print(qq)
 if q<w:
-    w=(w-q)
-    print(w)
+    ww=(w-q)
+    print(ww)
 if q==w:
     print(0)
