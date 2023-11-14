@@ -1,0 +1,7 @@
+a=input().split()
+q=int(a[0])
+w=int(a[1])
+e=(q+w)
+r=(q-w)
+t=(e/r)
+print("%.2f"%t)
