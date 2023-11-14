@@ -4,6 +4,8 @@ w=int(a[1])
 if q>w:
     q=(q-w)
     print(q)
-if q<=w:
+if q<w:
     w=(w-q)
     print(w)
+if q==w:
+    print(0)
