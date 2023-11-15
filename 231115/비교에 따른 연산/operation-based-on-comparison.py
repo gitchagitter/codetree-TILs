@@ -6,5 +6,5 @@ if q>w:
     q=(q*w)
     print(q)
 else:
-    w=(w/q)
+    w=(w//q)
     print(w)
